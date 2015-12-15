@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      parallelizeBuildables = "NO"
+      buildImplicitDependencies = "NO">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D047260B19E49F82006002AA"
+               BlueprintIdentifier = "D45480561A9572F5009D7229"
+               BuildableName = "Result.framework"
+               BlueprintName = "Result-Mac"
+               ReferencedContainer = "container:Carthage/Checkouts/Result/Result.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D04725E919E49ED7006002AA"
                BuildableName = "ReactiveCocoa.framework"
-               BlueprintName = "ReactiveCocoa-iOS"
+               BlueprintName = "ReactiveCocoa-Mac"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +42,44 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D047261519E49F82006002AA"
-               BuildableName = "ReactiveCocoa-iOSTests.xctest"
-               BlueprintName = "ReactiveCocoa-iOSTests"
+               BlueprintIdentifier = "1F925EAC195C0D6300ED456B"
+               BuildableName = "Nimble.framework"
+               BlueprintName = "Nimble-OSX"
+               ReferencedContainer = "container:Carthage/Checkouts/Nimble/Nimble.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DAEB6B8D1943873100289F44"
+               BuildableName = "Quick.framework"
+               BlueprintName = "Quick-OSX"
+               ReferencedContainer = "container:Carthage/Checkouts/Quick/Quick.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D04725F419E49ED7006002AA"
+               BuildableName = "ReactiveCocoaTests.xctest"
+               BlueprintName = "ReactiveCocoa-MacTests"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -47,9 +89,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D047261519E49F82006002AA"
-               BuildableName = "ReactiveCocoa-iOSTests.xctest"
-               BlueprintName = "ReactiveCocoa-iOSTests"
+               BlueprintIdentifier = "D04725F419E49ED7006002AA"
+               BuildableName = "ReactiveCocoaTests.xctest"
+               BlueprintName = "ReactiveCocoa-MacTests"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -57,9 +99,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BlueprintIdentifier = "D04725E919E49ED7006002AA"
             BuildableName = "ReactiveCocoa.framework"
-            BlueprintName = "ReactiveCocoa-iOS"
+            BlueprintName = "ReactiveCocoa-Mac"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -79,9 +121,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BlueprintIdentifier = "D04725E919E49ED7006002AA"
             BuildableName = "ReactiveCocoa.framework"
-            BlueprintName = "ReactiveCocoa-iOS"
+            BlueprintName = "ReactiveCocoa-Mac"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -97,9 +139,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BlueprintIdentifier = "D04725E919E49ED7006002AA"
             BuildableName = "ReactiveCocoa.framework"
-            BlueprintName = "ReactiveCocoa-iOS"
+            BlueprintName = "ReactiveCocoa-Mac"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
